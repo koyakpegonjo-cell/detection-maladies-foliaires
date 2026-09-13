@@ -1,0 +1,36 @@
+path: ../data/fieldplant
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 27
+
+names:
+  0: Flétrissement bactérien du manioc
+  1: Tache brune des feuilles du manioc
+  2: Manioc sain
+  3: Mosaïque du manioc
+  4: Pourriture des racines du manioc
+  5: Taches brunes du maïs
+  6: Charbon du maïs
+  7: Tache chlorotique des feuilles du maïs
+  8: Tache grise des feuilles du maïs
+  9: Maïs sain
+  10: Dégâts d'insectes sur le maïs
+  11: Mildiou du maïs
+  12: Décoloration violette du maïs
+  13: Charbon du maïs
+  14: Stries du maïs
+  15: Rayures du maïs
+  16: Décoloration violette du maïs
+  17: Taches jaunes du maïs
+  18: Jaunissement du maïs
+  19: Brûlure des feuilles du maïs
+  20: Rouille des feuilles du maïs
+  21: Taches brunes de la tomate
+  22: Flétrissement bactérien de la tomate
+  23: Brûlure des feuilles de la tomate
+  24: Tomate saine
+  25: Virus de la mosaïque des feuilles de tomate
+  26: Virus du jaunissement des feuilles de tomate

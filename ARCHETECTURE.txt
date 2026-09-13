@@ -1,0 +1,39 @@
+NOM_Prenom_ProjetCV_DetectionMaladiesFoliaires/
+│
+├── data/
+│   └── fieldplant/
+│       ├── train/
+│       │   ├── images/
+│       │   └── labels/
+│       │
+│       ├── valid/
+│       │   ├── images/
+│       │   └── labels/
+│       │
+│       └── test/
+│           ├── images/
+│           └── labels/
+│
+├── configs/
+│   └── data.yaml
+│
+├── notebooks/
+│   └── finetuning_yolo.ipynb
+│
+├── src/
+│   ├── utils.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── predict.py
+│   └── benchmark.py
+│
+├── reports/
+│   └── rapport_experimentation.md
+│
+├── runs/
+│   └── ...
+│
+├── requirements.txt
+├── ARCHITECTURE.txt
+├── README.md
+└── .gitignore

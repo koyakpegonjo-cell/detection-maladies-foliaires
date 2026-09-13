@@ -1,0 +1,29 @@
+# Dataset (trop volumineux pour GitHub)
+data/
+
+# Résultats d'entraînement générés automatiquement (poids, courbes, logs)
+runs/
+
+# Environnement virtuel Python
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Cache Jupyter Notebook
+.ipynb_checkpoints/
+
+# Poids de modèles (au cas où ils traînent ailleurs)
+*.pt
+*.pth
+*.onnx
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers VS Code (optionnel, à garder si tu veux versionner ta config d'éditeur)
+.vscode/
